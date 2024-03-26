@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz High Scores</title>
-</head>
-<body>
-    <h1>High Scores!</h1>
-    <A HREF = "./MainQuiz.html">Back To The Quiz</A>
-    <script>src="./assets/script.js"</script>
-</body>
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./assets/style.css">
+        <title>High Score Heros</title>
+    </head>
+    <body>
+        <section id="section">
+            <h2>Scores</h2>
+            <ul id="highScoreList"></ul>
+            <section id="highscore-buttons">
+                <button onclick="document.location = './MainQuiz.html'">Go back</button>
+                <button id="resetHighScore">Clear high scores</button>
+            </section>
+        </section>
+        <script src="../assets/scripts/scoreLeaderboard.js"></script>
+    </body>
 </html>

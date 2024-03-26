@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./assets/style.css" rel="stylesheet">
+    <title>Score</title>
+</head>
+
+<body>
+    <header>
+            <!--takes you to the high scores page-->
+            <a href="highscores.html">View high scores</a>
+        </header>
+    <main>
+        <section id="scoreSection">
+            <h2>Well done!</h2>
+            <!--displays the final score for this session-->
+            <p>Your final score is <span class="totalScore">22</span>.</p>
+            <!--input field for the user to enter their initials-->
+            <section id="inputField">
+                <label for="scoreInput">Enter initials:</label>
+                <input type="text" id="scoreInput">
+                <label for="scoreInput"><button id="submit">Submit</button></label>
+            </section>
+        </section>
+    </main>
+    <script src="./asset/smyScore.js"></script>
+</body>
+
+</html>

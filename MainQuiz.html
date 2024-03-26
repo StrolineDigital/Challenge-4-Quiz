@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Quiz Challenge</title>
-</head>
-<body>
-    <h1>Coding Quiz Challenge</h1>
-    <A HREF = "./HighScore.html">View High Scores!</A>
-    <div id="quiz"></div>
-    <form>
-    <label for="fname">Write Your Intials:</label>
-  <input type="text" id="Initials" name="initials">
-<button id="submit">Submit Quiz</button>
-</form>
-    <script>src="./assets/script.js"</script>
-</body>
-
+<html>
+    <head>
+        <link href="./style.css" rel="stylesheet">
+        <title>Quiz</title>
+    </head>
+    <body>
+        <header>
+            <a href="HighScore.html">View high scores</a>
+            <p>Time: <span id="time">75</span></p>
+        </header>
+        <main id="quiz">
+            <section id="buttons">
+                <h2 id="question">Temporary Header</h2>
+                <input id=button-1 type="radio">temp text</input><br>
+                <input id=button-2 type="radio">temp text</input><br>
+                <input id=button-3 type="radio">temp text</input><br>
+                <input id=button-4 type="radio">temp text</input><br>
+                <hr>
+                <i id="isCorrect"></i>
+            </section>
+        </main>
+        <script src="../assets/scripts/setQuestions.js"></script>
+        <script src="../assets/scripts/questions.js"></script>
+    </body>
 </html>
