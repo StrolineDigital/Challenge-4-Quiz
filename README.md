@@ -6,7 +6,7 @@ The Javascript quiz is made to allow users to test their knowledge of coding. On
 ## User Story
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
+SO THAT I can gauge my progress compared to my peers.
 
 ## Usage
 The user is advised to start by clicking the start button on the starting page. Once the start button is pressed the user has 60 seconds to answer 5 questions about Javascript. With each correct answer the word "correct" will appear in green at the bottom of the quiz. For each incorrect answer the word "wrong" will appear in red and 10 seconds will be subtracted from the timer. The user is advised to enter their initials upon completion of the quiz so that their score can be saved to the high scores page. 
