@@ -22,7 +22,7 @@ let counter = setInterval(function () {
         clearInterval(counter);
 
         console.log(time);
-        localStorage.setItem("Time", String(time));
+        localStorage.setItem("score", String(time));
         window.location.assign("Score.html");
     }
     return time;
@@ -46,11 +46,13 @@ function checkAnswer(event) {
         if (event.target.dataset.button === "answer") {
             if (event.target.textContent === questions[number].correctAnswer) {
                 isCorrect.textContent = "Correct!"
+                isCorrect.style.color = "green";
                 
                 getQuestions(number += 1);
                 return number;
             } else {
                 isCorrect.textContent = "Wrong!"
+                isCorrect.style.color = "red";
                 
                 time -= 10;
                 getQuestions(number += 1);
