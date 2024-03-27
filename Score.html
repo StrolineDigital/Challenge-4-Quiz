@@ -7,24 +7,26 @@
 </head>
 
 <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <header>
             <!--takes you to the high scores page-->
-            <a href="highscores.html">View high scores</a>
+            <a href="HighScore.html">View high scores</a>
         </header>
     <main>
         <section id="scoreSection">
             <h2>Well done!</h2>
             <!--displays the final score for this session-->
-            <p>Your final score is <span class="totalScore">22</span>.</p>
+            <p>Your final score is <span class="score"></p>
             <!--input field for the user to enter their initials-->
             <section id="inputField">
                 <label for="scoreInput">Enter initials:</label>
-                <input type="text" id="scoreInput">
+                                <input type="text" id="scoreInput">
+                                <!--submit button to save the score-->
                 <label for="scoreInput"><button id="submit">Submit</button></label>
             </section>
         </section>
     </main>
-    <script src="./asset/smyScore.js"></script>
+    <script src="./assets/myScore.js"></script>
 </body>
 
 </html>

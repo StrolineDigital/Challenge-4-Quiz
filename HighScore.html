@@ -6,14 +6,18 @@
         <title>High Score Heros</title>
     </head>
     <body>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <section id="section">
             <h2>Scores</h2>
+            <!--This empty list is to contain the high scores when they are saved to local storage-->
             <ul id="highScoreList"></ul>
             <section id="highscore-buttons">
+                <!--This button will take the user back to the main quiz page-->
                 <button onclick="document.location = './MainQuiz.html'">Go back</button>
+                <!--This button will clear the high scores from local storage-->
                 <button id="resetHighScore">Clear high scores</button>
             </section>
         </section>
-        <script src="../assets/scripts/scoreLeaderboard.js"></script>
+        <script src="./assets/highScore.js"></script>
     </body>
 </html>

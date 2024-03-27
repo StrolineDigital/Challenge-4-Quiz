@@ -5,6 +5,7 @@
         <title>Quiz</title>
     </head>
     <body>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <header>
             <a href="HighScore.html">View high scores</a>
             <p>Time: <span id="time">75</span></p>
@@ -12,15 +13,17 @@
         <main id="quiz">
             <section id="buttons">
                 <h2 id="question">Temporary Header</h2>
-                <input id=button-1 type="radio">temp text</input><br>
-                <input id=button-2 type="radio">temp text</input><br>
-                <input id=button-3 type="radio">temp text</input><br>
-                <input id=button-4 type="radio">temp text</input><br>
+                <button id="answer1" data-button="answer">temp text</button><br>
+                <button id="answer2" data-button="answer">temp text</button> <br>
+                <button id="answer3" data-button="answer">temp test</button><br>
+                <button id="answer4" data-button="answer">temp text</button>
                 <hr>
+                
                 <i id="isCorrect"></i>
             </section>
         </main>
-        <script src="../assets/scripts/setQuestions.js"></script>
-        <script src="../assets/scripts/questions.js"></script>
+        <script src="./assets/mainQuiz.js"></script>
+        <script src="./assets/questions.js"></script>
+        <script src="./assets/myScore.js"></script>
     </body>
 </html>
