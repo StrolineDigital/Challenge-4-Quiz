@@ -1,7 +1,8 @@
 # Javascript Quiz
 A timed multiple choice quiz about Javascript
 ## Description
-The Javascript quiz is made to allow users to test their knowledge of coding. Once the start button is clicked, the user must race against the clock to answer questions about coding. Each incorrect answer will result in a 10 second deduction in time from the clock. When all questions are answered or the clock runs out, a score page is displayed which allows the user to input initials so that the score can be saved to a high scores page in local storage. The top 4 scores are saved in local storage with this application. An example of what the application looks like can be seen here: ![alt text](_C__Users_lukes_Downloads_bootcamp_bootcamp_challenge_4_Multi_Choice_Quiz_MainQuiz.html.png)
+The Javascript quiz is made to allow users to test their knowledge of coding. Once the start button is clicked, the user must race against the clock to answer questions about coding. Each incorrect answer will result in a 10 second deduction in time from the clock. When all questions are answered or the clock runs out, a score page is displayed which allows the user to input initials so that the score can be saved to a high scores page in local storage. The top 4 scores are saved in local storage with this application. An example of what the application looks like can be seen here: ![alt text](assets/_C__Users_lukes_Downloads_bootcamp_bootcamp_challenge_4_Multi_Choice_Quiz_MainQuiz.html.png)
+
 ## User Story
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
